@@ -7,7 +7,17 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .pub {
+      display: flex;
+      align-items: flex-start;
       margin-bottom: 20px;
+    }
+    .pub img {
+      width: 120px;
+      height: auto;
+      margin-right: 15px;
+    }
+    .pub-details {
+      max-width: 650px;
     }
     .pub-title {
       font-weight: bold;
@@ -47,12 +57,15 @@
         <h2>Selected Publications</h2> 
 
         <div class="pub">
-          <div class="pub-title">Understanding the Impact of Client Heterogeneity on Ordinal Classification in Federated Medical Image Analysis</div>
-          <div class="pub-authors">Valentina Corbetta, Regina Beets-Tan, Jaime S. Cardoso, and <u>Wilson Silva</u></div>
-          <div class="pub-venue">Medical Imaging with Deep Learning (2025)</div>
-          <div class="pub-links">
-            <a href="https://openreview.net/pdf?id=44K3Ep53Ub" target="_blank">PDF</a>
-            <a href="https://github.com/Trustworthy-AI-UU-NKI/Federated_Ordinal_Learning" target="_blank">Code</a>
+          <img src="fig1.jpg" alt="Figure for paper 1">
+          <div class="pub-details">
+            <div class="pub-title">Understanding the Impact of Client Heterogeneity on Ordinal Classification in Federated Medical Image Analysis</div>
+            <div class="pub-authors">Valentina Corbetta, Regina Beets-Tan, Jaime S. Cardoso, and <u>Wilson Silva</u></div>
+            <div class="pub-venue">Medical Imaging with Deep Learning, 2025</div>
+            <div class="pub-links">
+              <a href="https://openreview.net/pdf?id=44K3Ep53Ub" target="_blank">PDF</a>
+              <a href="https://github.com/Trustworthy-AI-UU-NKI/Federated_Ordinal_Learning" target="_blank">Code</a>
+            </div>
           </div>
         </div>
       
